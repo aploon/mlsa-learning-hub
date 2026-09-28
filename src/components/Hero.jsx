@@ -7,7 +7,7 @@ export default function Hero({ total }) {
       <div className="mx-auto grid max-w-7xl items-center gap-8 px-5 py-14 md:grid-cols-2 md:py-24">
         <div className="max-w-lg bg-white p-8 shadow-xl dark:bg-neutral-900 md:p-10">
           <p className="text-xs font-semibold uppercase tracking-wider text-neutral-500 dark:text-neutral-400">
-            Microsoft Learn Student Ambassadors
+            Microsoft Student Ambassadors
           </p>
           <h1 className="mt-3 text-3xl font-semibold leading-tight text-neutral-900 dark:text-white md:text-4xl">
             Les ressources Microsoft pour apprendre, créer et progresser

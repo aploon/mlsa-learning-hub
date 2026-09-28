@@ -10,7 +10,7 @@ export default function Header() {
           <Logo />
           <span className="font-semibold text-neutral-900 dark:text-white">Microsoft</span>
           <span className="hidden h-5 w-px bg-neutral-300 dark:bg-neutral-700 sm:block" />
-          <span className="hidden text-neutral-700 dark:text-neutral-300 sm:block">Learn Student Ambassadors</span>
+          <span className="hidden text-neutral-700 dark:text-neutral-300 sm:block">Microsoft Student Ambassadors</span>
         </div>
         <nav className="flex items-center gap-6 text-sm">
           <a href="#categories" className="hidden hover:text-ms dark:hover:text-ms-light md:block">Catégories</a>
