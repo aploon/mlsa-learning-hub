@@ -1,5 +1,5 @@
 import { ChevronRight } from "lucide-react";
-import { FULL_NAME } from "../config";
+import { FULL_NAME, GITHUB_URL } from "../config";
 
 export default function Hero({ total }) {
   return (
@@ -13,7 +13,10 @@ export default function Hero({ total }) {
             Les ressources Microsoft pour apprendre, créer et progresser
           </h1>
           <p className="mt-4 leading-relaxed text-neutral-600 dark:text-neutral-300">
-            Cloud, IA, data, low-code et entrepreneuriat : une sélection de {total} ressources officielles, partagée par {FULL_NAME}.
+            Cloud, IA, data, low-code et entrepreneuriat : une sélection de {total} ressources officielles, partagée par{" "}
+            <a href={GITHUB_URL} target="_blank" rel="noopener noreferrer" className="font-semibold text-ms hover:underline dark:text-ms-light">
+              {FULL_NAME}
+            </a>.
           </p>
           <div className="mt-7 flex flex-wrap items-center gap-4">
             <a href="#resources" className="inline-flex items-center gap-2 bg-ms px-6 py-2.5 font-semibold text-white transition hover:bg-ms-dark">
