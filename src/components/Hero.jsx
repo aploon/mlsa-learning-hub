@@ -3,7 +3,7 @@ import { FULL_NAME } from "../config";
 
 export default function Hero({ total }) {
   return (
-    <section className="bg-cover bg-center" style={{ backgroundImage: "url(/hero.svg)" }}>
+    <section className="bg-[url('/hero-students.jpg')] bg-cover bg-center md:bg-[url('/hero.svg')]">
       <div className="mx-auto grid max-w-7xl items-center gap-8 px-5 py-14 md:grid-cols-2 md:py-24">
         <div className="max-w-lg bg-white p-8 shadow-xl dark:bg-neutral-900 md:p-10">
           <p className="text-xs font-semibold uppercase tracking-wider text-neutral-500 dark:text-neutral-400">
