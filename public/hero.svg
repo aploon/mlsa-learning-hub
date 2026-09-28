@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" preserveAspectRatio="xMidYMid slice">
+<defs>
+<linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#dfeaf5"/><stop offset=".55" stop-color="#8fb4dc"/><stop offset="1" stop-color="#0f3557"/></linearGradient>
+<linearGradient id="p" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".55"/><stop offset="1" stop-color="#fff" stop-opacity=".05"/></linearGradient>
+<filter id="b"><feGaussianBlur stdDeviation="40"/></filter>
+</defs>
+<rect width="1600" height="700" fill="url(#g)"/>
+<g filter="url(#b)"><ellipse cx="1150" cy="180" rx="330" ry="200" fill="#00a4ef" opacity=".55"/><ellipse cx="1400" cy="560" rx="300" ry="190" fill="#0067b8" opacity=".7"/><ellipse cx="820" cy="600" rx="260" ry="150" fill="#7fd0e8" opacity=".5"/></g>
+<g fill="url(#p)" stroke="#fff" stroke-opacity=".45">
+<rect x="860" y="90" width="300" height="300" rx="14" transform="rotate(-12 1010 240)"/>
+<rect x="1080" y="250" width="340" height="340" rx="14" transform="rotate(8 1250 420)"/>
+<rect x="1330" y="60" width="200" height="200" rx="12" transform="rotate(18 1430 160)"/>
+<rect x="700" y="380" width="190" height="190" rx="12" transform="rotate(-6 795 475)"/>
+</g></svg>

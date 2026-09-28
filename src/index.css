@@ -1,0 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html { scroll-behavior: smooth; scroll-padding-top: 72px; }
+body { @apply bg-white text-neutral-800 antialiased dark:bg-neutral-950 dark:text-neutral-200; }
